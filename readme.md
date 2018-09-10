@@ -3,7 +3,7 @@ utility docker image based on [OS_FrontendMaster-dl](https://github.com/li-xinya
 
 ### build
 ```sh
-docker build --rm -t frontendmasters-dl .
+docker build --rm -t ivoputzer/frontendmasters-dl .
 ```
 
 ### usage
@@ -17,6 +17,8 @@ alias frontendmasters-dl "docker run --rm -v (pwd):/app/src/Download -i ivoputze
 
 ### options
 ```
+Usage: frontendmasters-dl [OPTIONS]
+
 Options:
   --course TEXT      Course ID (e.g. `firebase-react`)
   --id TEXT          Frontend Master Username
