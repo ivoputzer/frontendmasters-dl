@@ -11,5 +11,5 @@ WORKDIR /app/src
 COPY OS_FrontendMaster-dl/ /app/src/
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["python"]
-CMD ["frontendmasters-dl.py", "--help"]
+ENTRYPOINT ["python", "frontendmasters-dl.py"]
+CMD ["--help"]
