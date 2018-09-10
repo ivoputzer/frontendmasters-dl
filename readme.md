@@ -13,6 +13,8 @@ alias frontendmasters-dl="docker run --rm -v $(pwd):/app/src/Download -i ivoputz
 
 # fish
 alias frontendmasters-dl "docker run --rm -v (pwd):/app/src/Download -i ivoputzer/frontendmasters-dl $argv"
+
+frontendmasters-dl --help
 ```
 
 ### options
